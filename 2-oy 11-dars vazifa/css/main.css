@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container{
+    padding-top: 30px;
+    margin-bottom: 100px;
+}
+
+.header-container .nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-container .nav ul li{
+    list-style: none;
+}
+
+.header-container .nav ul li a{
+    color: #696871;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
+    transition: all 0.5s;
+}
+
+.header-container .nav ul li a:hover{
+    color: #FF7143; 
+    border-bottom: 3px solid #FF7143;
+    border-radius: 3px;
+    padding-bottom: 10px;
+}
+
+.header-container button{
+    padding: 19px 60px;
+    border-radius: 10px;
+    background: #FF7143;
+    border: none;
+    cursor: pointer;
+    
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.header-container button:hover{
+    background: #96391a;
+}
+
+/* hero style */
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 74px;
+}
+
+.hero-container .auth-left h1{
+    margin-top: -140px;
+    color: #19191B;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -2.501px;
+}
+
+.hero-container .auth-left p{
+    color: #696871;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.625px;
+    padding-top: 30px;
+    width: 400px;
+    padding-bottom: 50px;
+}
+
+.hero-container .auth-left .link-button{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-container .auth-left .button{
+    width: 211px;
+    height: 60px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+    cursor: pointer;
+
+    border-radius: 10px;
+    background: #5454D4;
+}
+
+.hero-container .auth-left .button:hover{
+    background: #232375;
+}
+
+/* logo link */
+
+
+.logo-link{
+    margin-top: 112.19px;
+    margin-bottom: 150px;
+}
